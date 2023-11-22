@@ -1,0 +1,6 @@
+chainlit
+llama-index
+farm-haystack
+datasets
+torch
+langflow
