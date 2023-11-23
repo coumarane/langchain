@@ -14,19 +14,24 @@ We can't wait to see what you create with Chainlit! Happy coding! 💻😊
 To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
 
 ## TODO
-pip install chainlit
-pip install llama-index
+
+- Create en environement
+Python 3.11.5
+$ conda create -n .venv python=3.11.5 -y && source activate .venv
+
+$ pip install chainlit
+$ pip install llama-index
 
 - download model exemple:
 https://github.com/langchain-ai/langchain/blob/master/docs/docs/modules/state_of_the_union.txt
 
-pip install farm-haystack
+$ pip install farm-haystack
 
-pip install datasets
+$ pip install datasets
 
-pip install torch
+$ pip install torch
 
-pip install langflow
+$ pip install langflow
 
 ```
 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
@@ -38,4 +43,6 @@ farm-haystack 1.22.1 requires tiktoken>=0.5.1, but you have tiktoken 0.4.0 which
 farm-haystack 1.22.1 requires transformers==4.34.1, but you have transformers 4.33.3 which is incompatible.
 datasets 2.15.0 requires huggingface-hub>=0.18.0, but you have huggingface-hub 0.15.1 which is incompatible.
 ```
+ Run the langflow:
 
+ $ langflow
