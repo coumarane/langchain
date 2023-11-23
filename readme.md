@@ -46,3 +46,14 @@ datasets 2.15.0 requires huggingface-hub>=0.18.0, but you have huggingface-hub 0
  Run the langflow:
 
  $ langflow
+
+- Create an account in https://smith.langchain.com/
+After that create a new project call langflow-test
+
+Add these values in .env file:
+```
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+LANGCHAIN_API_KEY=<your-api-key>
+LANGCHAIN_PROJECT=<your-project>  # if not specified, defaults to
+```
